@@ -40,4 +40,4 @@ gem 'sdoc', '~> 0.4.0',                              group: :doc
 
 gem 'capistrano'
 gem "torquebox", "3.1.0"
-#gem 'capistrano-torquebox'
+gem 'capistrano-torquebox'
