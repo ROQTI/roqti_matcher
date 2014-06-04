@@ -1,1 +1,25 @@
-test
+<h2>List all Orders:</h2>
+
+
+<table class="table table-hover">
+  <thead>
+  <tr>
+    <th>Ticker Symbol</th>
+    <th>Order Type</th>
+    <th>Price</th>
+    <th>Date Added</th>
+    <th>&nbsp;</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% for order in @orders %>
+      <tr >
+        <td><%= order.ticker_symbol %></td>
+        <td><%= order.order %></td>
+        <td><%= order.offer_price %></td>
+        <td><%= order.created_at.strftime("%m/%d/%Y %H:%M:%s") %></td>
+        <td>View</td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>

@@ -4,3 +4,8 @@
 # for all configuration options.
 web:
   context: "/"
+queues:
+  /queues/orders:
+    durable: false
+messaging:
+  /queues/orders: OrderProcessor

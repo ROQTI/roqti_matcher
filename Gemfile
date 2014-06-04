@@ -38,5 +38,6 @@ gem 'sdoc', '~> 0.4.0',                              group: :doc
 # gem 'capistrano-rails', group: :development
 
 
-
+gem 'capistrano'
 gem "torquebox", "3.1.0"
+#gem 'capistrano-torquebox'
