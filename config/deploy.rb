@@ -1,5 +1,7 @@
+#require 'torquebox-capistrano-support'
+
 # config valid only for Capistrano 3.1
-lock '3.1.0'
+#lock '3.1.0'
 
 set :application, 'roqti_matcher'
 set :repo_url, 'git@github.com:ROQTI/roqti_matcher.git'
