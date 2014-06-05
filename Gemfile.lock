@@ -146,7 +146,6 @@ GEM
     torquebox-cache (3.1.0-java)
       torquebox-core (= 3.1.0)
       torquebox-transactions (= 3.1.0)
-    torquebox-capistrano-support (3.1.0)
     torquebox-configure (3.1.0-java)
       blankslate (= 2.1.2.4)
     torquebox-core (3.1.0-java)
@@ -195,6 +194,5 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   therubyrhino
   torquebox (= 3.1.0)
-  torquebox-capistrano-support
   turbolinks
   uglifier (>= 1.3.0)
