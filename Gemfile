@@ -42,5 +42,5 @@ gem 'capistrano'
 gem "torquebox", "3.1.0"
 
 gem 'capistrano-bundler'
-gem 'capistrano-torquebox'
-#gem 'torquebox-capistrano-support'
+#gem 'capistrano-torquebox'
+gem 'torquebox-capistrano-support'
